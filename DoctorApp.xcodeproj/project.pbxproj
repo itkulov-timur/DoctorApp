@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7AD3A5563066C84F00573A25 /* doctors.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3A5553066C84F00573A25 /* doctors.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7AD3A52F306410CF00573A25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7AD3A521306410CF00573A25 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD3A52E306410CF00573A25 /* DoctorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD3A538306410CF00573A25 /* DoctorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD3A5553066C84F00573A25 /* doctors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = doctors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +48,26 @@
 		7AD3A53B306410CF00573A25 /* DoctorAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DoctorAppUITests;
+			sourceTree = "<group>";
+		};
+		7AD3A5653067D74100573A25 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AD3A5663067D74B00573A25 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AD3A5673067D75B00573A25 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AD3A59D3067F66300573A25 /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,9 +94,14 @@
 		7AD3A518306410CE00573A25 = {
 			isa = PBXGroup;
 			children = (
+				7AD3A59D3067F66300573A25 /* Helpers */,
+				7AD3A5673067D75B00573A25 /* Model */,
+				7AD3A5663067D74B00573A25 /* ViewModel */,
+				7AD3A5653067D74100573A25 /* View */,
 				7AD3A523306410CF00573A25 /* DoctorApp */,
 				7AD3A531306410CF00573A25 /* DoctorAppTests */,
 				7AD3A53B306410CF00573A25 /* DoctorAppUITests */,
+				7AD3A5553066C84F00573A25 /* doctors.json */,
 				7AD3A522306410CF00573A25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +131,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7AD3A523306410CF00573A25 /* DoctorApp */,
+				7AD3A5653067D74100573A25 /* View */,
+				7AD3A5663067D74B00573A25 /* ViewModel */,
+				7AD3A5673067D75B00573A25 /* Model */,
+				7AD3A59D3067F66300573A25 /* Helpers */,
 			);
 			name = DoctorApp;
 			productName = DoctorApp;
@@ -197,6 +231,7 @@
 		7AD3A51F306410CF00573A25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				7AD3A5563066C84F00573A25 /* doctors.json in Resources */,
 			);
 		};
 		7AD3A52C306410CF00573A25 /* Resources */ = {
